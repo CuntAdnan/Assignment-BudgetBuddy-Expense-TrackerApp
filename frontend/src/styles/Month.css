@@ -1,0 +1,76 @@
+.total-month-page {
+  display: flex;
+  flex-direction: row;
+}
+.main-month-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.all-graph h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  color: #6748d6;
+}
+.all-graph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-div-month {
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 0;
+}
+
+input[type="date"] {
+  font-family: "poppins";
+  padding: 5px;
+}
+input[type="week"] {
+  font-family: "poppins";
+  padding: 5px;
+}
+
+input[type="year"] {
+  font-family: "poppins";
+  padding: 5px;
+}
+
+input[type="month"] {
+  font-family: "poppins";
+  padding: 5px;
+}
+
+.date-divs {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+input[type="date"] {
+  background-color: #6748d6;
+  border: 1px solid #ccc;
+  color: #f8fbfd;
+}
+
+input[type="week"] {
+  background-color: #6748d6;
+  border: 1px solid #ccc;
+  color: #f8fbfd;
+}
+
+input[type="month"] {
+  background-color: #6748d6;
+  border: 1px solid #ccc;
+  color: #f8fbfd;
+}
+
+input[type="year"] {
+  background-color: #6748d6;
+  border: 1px solid #ccc;
+  color: #f8fbfd;
+}
